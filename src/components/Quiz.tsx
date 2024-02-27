@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { useNavigate } from "react-router-dom";
 import './Quiz.css'
-import { data } from '../assets/data';
+import {data} from './assets/data'
 import Webcam from "react-webcam";
 import { parse } from 'date-fns';
 import Timer from './Timer';
