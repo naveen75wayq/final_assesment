@@ -1,0 +1,124 @@
+.container .correct{
+    background-color: #317d5f;
+    border-color: #4b6e64;
+}
+.answered{
+    background-color: #0de18c;
+    border-color: #14dca4;
+
+}
+.myText{
+    margin-left: 46px;
+    margin-bottom: 10px;
+}
+.mybuttons{
+    padding: 30px;
+    padding-left: 50px;
+    display: flex
+}
+.container{
+    width: 80vw;
+    padding: 30px;
+    padding-left: 50px;
+}
+.reviewed{
+    background-color: #e9cb0c;
+    border-color: #e5c80a;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.container .wrong{
+    background-color: #317d5f;
+    border-color: #4b6e64;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.submitButton{
+    
+    width: 106px!important;
+    height: 59px!important;
+    font-size: 16px!important;
+    font-weight: 800!important;
+}
+
+
+.mytimer{
+    border:2px solid black;
+    width:40px;
+    padding-left: 10px;
+}
+.resultContainer{
+    border: 1px solid black;
+    width: 33vw;
+    height: 33vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(0, -50%);
+}
+.allQueshions{
+    width: 35vw;
+    padding: 15px;
+}
+@media screen and (max-width: 480px) {
+    .submitButton {
+        margin: auto;
+        width: 80px;
+        height: 47px;
+        font-size: 12px;
+        font-weight: 800;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .resultContainer {
+        border: 1px solid black;
+        width: 69vw;
+        height: 28vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 14%;
+        transform: translate(0, -50%);
+    }
+    .resultContainer h2{
+        font-size: 13px;
+    font-weight: 700;
+    }
+    .resultContainer p{
+        font-size: 12px;
+    }
+
+}
